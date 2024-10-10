@@ -1,0 +1,29 @@
+.cart {
+  width: 456px;
+  height: 50px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  transform: rotate(-90deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.cart-container {
+  cursor: pointer;
+}
+
+.cart-content {
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-info {
+  font-size: 14px;
+  padding: 10px;
+}
