@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="absolute top-0 w-full z-10 p-3">
       <div className="nav mx-auto px-4 py-2 flex justify-between items-center">
         <div className="nav-item flex items-center justify-between w-full">
-          {/* Links for larger screens */}
+   
           <div className="hidden lg:flex gap-10">
             <Link to="/" className="items">Home</Link>
             <Link to="/about" className="items">About us</Link>
@@ -23,8 +23,8 @@ const Navbar = () => {
             <Link to="/clients" className="items">Our clients</Link>
             <Link to="/contact" className="items">Contact us</Link>
           </div>
-          {/* Buttons for larger screens */}
-          <div className="button hidden lg:flex space-x-2">
+  
+          <div className=" hidden lg:flex space-x-2">
             <Link to="/signin" className="buuton-info border-gray-300 rounded-full px-3 py-2">
               Sign In
             </Link>
@@ -32,14 +32,14 @@ const Navbar = () => {
               Register
             </Link>
           </div>
-          {/* Menu button for smaller screens */}
+     
           <div className="lg:hidden">
             <button onClick={toggleMenu} className="text-gray-700 focus:outline-none">
               {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />} 
             </button>
           </div>
         </div>
-        {/* Side menu for mobile screens */}
+
         <div
           className={`lg:hidden fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform ${
             isOpen ? 'translate-x-0' : 'translate-x-full'

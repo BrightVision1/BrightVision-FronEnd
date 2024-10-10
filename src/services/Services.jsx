@@ -3,7 +3,7 @@ import Cart from '../components/cart/Cart';
 import './services.css';
 
 const Services = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // لمعرفة الكرت المفتوح
+  const [activeIndex, setActiveIndex] = useState(null); 
 
   const services = [
     "Software Development",
@@ -16,7 +16,6 @@ const Services = () => {
   ];
 
   const handleClick = (index) => {
-    // إذا كان الكرت المفتوح هو نفسه انقر عليه مرة أخرى أغلقه، وإذا كان غيره افتحه
     setActiveIndex(prevIndex => (prevIndex === index ? null : index));
   };
 

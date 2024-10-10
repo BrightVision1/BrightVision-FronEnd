@@ -1,0 +1,28 @@
+.Project {
+  position: relative;
+}
+.Project h1 {
+  box-sizing: border-box;
+  width: 340px;
+  height: 80px;
+  color: #214869;
+  border-bottom: 1px solid #ffdddd;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.button {
+  position: absolute;
+  background-color: #9a0606;
+  color: #fff;
+  width: 6%;
+  text-align: center;
+  border-radius: 30px;
+  bottom: -15%;
+  right: 17%;
+}
+.button:hover{
+    background-color: #fff;
+    color: #9a0606;
+}

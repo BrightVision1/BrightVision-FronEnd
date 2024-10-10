@@ -1,15 +1,19 @@
-import AboutUs from "../../components/AboutUs/AboutUs"
-import Banner from "../../components/Banner/Banner"
-import Services from "../../services/Services"
+import AboutUs from "../../components/AboutUs/AboutUs";
+import Client from "../../components/Clients/Client";
+import ContactUs from "../../components/contactUs/ContactUs";
+import Project from "../../components/projects/Project";
+import Services from "../../services/Services";
 
 const Home = () => {
   return (
     <>
-      <Banner/>
-     <AboutUs/>
-<Services/>
+      <AboutUs />
+      <Services />
+      <Project />
+      <Client/>
+      <ContactUs />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
