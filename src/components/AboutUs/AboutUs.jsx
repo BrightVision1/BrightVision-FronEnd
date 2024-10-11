@@ -26,7 +26,7 @@ const AboutUs = () => {
             anti-theft devices, networks, and software. It keeps pace with the latest
             technologies, and our successes have continued to expand globally.
           </p>
-          <a href="/BrightVision-FronEnd/about" className="btn read-more-btn">Read More</a>
+          <a href="/about" className="btn read-more-btn">Read More</a>
         </div>
       </div>
     </div>
