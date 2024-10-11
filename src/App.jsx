@@ -31,8 +31,8 @@ function App() {
         <Route path="/BrightVision-FronEnd/projects" element={<Projects />} />
         <Route path="/BrightVision-FronEnd/clients" element={<Client />} />
         <Route path="/BrightVision-FronEnd/contact" element={<ContactUs />} />
-        {/* <Route path="/signin" element={<SignIn />} />
-        <Route path="/register" element={<Register />} /> */}
+        {/* <Route path="/BrightVision-FronEnd/signin" element={<SignIn />} />
+        <Route path="/BrightVision-FronEnd/register" element={<Register />} /> */}
       </Routes>
       <Footer/>
     </Router>
