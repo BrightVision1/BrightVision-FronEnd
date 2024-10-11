@@ -46,7 +46,7 @@ const Project = () => {
                 toggleOpen={() => toggleCard(card.id)}
               />
             ))}
-            <a href="/BrightVision-FronEnd/project" className="Btn">
+            <a href="/BrightVision-FronEnd/projects" className="Btn">
               Read More
             </a>
           </div>
