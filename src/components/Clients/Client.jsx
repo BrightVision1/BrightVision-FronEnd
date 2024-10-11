@@ -9,26 +9,16 @@ import client7 from '../../assets/client/7.png';
 
 const Client = () => {
   return (
-    <div className="client-slider">
+    <div className="client-gallery mt-16">
       <h1>Our Clients</h1>
-      <div className="slider">
-        <div className="slider-track">
-          <img src={client} alt="Client 1" />
-          <img src={client2} alt="Client 2" />
-          <img src={client3} alt="Client 3" />
-          <img src={client4} alt="Client 4" />
-          <img src={client5} alt="Client 5" />
-          <img src={client6} alt="Client 6" />
-          <img src={client7} alt="Client 7" />
-          {/* slider........ */}
-          <img src={client} alt="Client 1" />
-          <img src={client2} alt="Client 2" />
-          <img src={client3} alt="Client 3" />
-          <img src={client4} alt="Client 4" />
-          <img src={client5} alt="Client 5" />
-          <img src={client6} alt="Client 6" />
-          <img src={client7} alt="Client 7" />
-        </div>
+      <div className="client-images">
+        <img src={client} alt="Client 1" />
+        <img src={client2} alt="Client 2" />
+        <img src={client3} alt="Client 3" />
+        <img src={client4} alt="Client 4" />
+        <img src={client5} alt="Client 5" />
+        <img src={client6} alt="Client 6" />
+        <img src={client7} alt="Client 7" />
       </div>
     </div>
   );

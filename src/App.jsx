@@ -25,12 +25,12 @@ function App() {
       <Navbar />
       <Banner/>
       <Routes>
-        <Route path="/" element={<Home />} />
-       <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/clients" element={<Client />} />
-        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/BrightVision-FronEnd/" element={<Home />} />
+       <Route path="/BrightVision-FronEnd/about" element={<About />} />
+        <Route path="/BrightVision-FronEnd/services" element={<Services />} />
+        <Route path="/BrightVision-FronEnd/projects" element={<Projects />} />
+        <Route path="/BrightVision-FronEnd/clients" element={<Client />} />
+        <Route path="/BrightVision-FronEnd/contact" element={<ContactUs />} />
         {/* <Route path="/signin" element={<SignIn />} />
         <Route path="/register" element={<Register />} /> */}
       </Routes>

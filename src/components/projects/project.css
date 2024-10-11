@@ -12,17 +12,13 @@
   font-weight: bold;
   margin: 0 auto;
 }
-.button {
-  position: absolute;
-  background-color: #9a0606;
-  color: #fff;
-  width: 6%;
-  text-align: center;
+.Btn {
+color: #214869;
   border-radius: 30px;
-  bottom: -15%;
-  right: 17%;
+ font-size: 20px;
+ font-weight: 700;
 }
-.button:hover{
+.Btn:hover{
     background-color: #fff;
     color: #9a0606;
 }
