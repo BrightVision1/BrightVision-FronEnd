@@ -16,19 +16,19 @@ const Navbar = () => {
         <div className="nav-item flex items-center justify-between w-full">
    
           <div className="hidden lg:flex gap-10">
-            <Link to="/" className="items">Home</Link>
-            <Link to="/about" className="items">About us</Link>
-            <Link to="/services" className="items">Our services</Link>
-            <Link to="/projects" className="items">Our projects</Link>
-            <Link to="/clients" className="items">Our clients</Link>
-            <Link to="/contact" className="items">Contact us</Link>
+            <Link to="/BrightVision-FronEnd/" className="items">Home</Link>
+            <Link to="/BrightVision-FronEnd/about" className="items">About us</Link>
+            <Link to="/BrightVision-FronEnd/services" className="items">Our services</Link>
+            <Link to="/BrightVision-FronEnd/projects" className="items">Our projects</Link>
+            <Link to="/BrightVision-FronEnd/clients" className="items">Our clients</Link>
+            <Link to="/BrightVision-FronEnd/contact" className="items">Contact us</Link>
           </div>
   
           <div className=" hidden lg:flex space-x-2">
-            <Link to="/signin" className="buuton-info border-gray-300 rounded-full px-3 py-2">
+            <Link to="/BrightVision-FronEnd//signin" className="buuton-info border-gray-300 rounded-full px-3 py-2">
               Sign In
             </Link>
-            <Link to="/register" className="buuton-info rounded-full px-3 py-2">
+            <Link to="/BrightVision-FronEnd//register" className="buuton-info rounded-full px-3 py-2">
               Register
             </Link>
           </div>
