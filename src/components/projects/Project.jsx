@@ -2,6 +2,7 @@ import "./project.css";
 import project from "../../assets/contact/project.png";
 import Card from "./Card";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Project = () => {
   const [openCard, setOpenCard] = useState(null);
 
@@ -46,9 +47,9 @@ const Project = () => {
                 toggleOpen={() => toggleCard(card.id)}
               />
             ))}
-            <a href="/BrightVision-FronEnd/projects" className="Btn">
+            <Link to="/projects" className="Btn">
               Read More
-            </a>
+            </Link>
           </div>
         </div>
       </div>

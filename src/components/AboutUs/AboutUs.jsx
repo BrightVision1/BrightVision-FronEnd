@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import about1 from '../../assets/about/about.png';
 import about2 from '../../assets/about/about2.png';
 import mask from '../../assets/about/Mask.png';
@@ -26,7 +27,7 @@ const AboutUs = () => {
             anti-theft devices, networks, and software. It keeps pace with the latest
             technologies, and our successes have continued to expand globally.
           </p>
-          <a href="/BrightVision-FronEnd/about" className="btn read-more-btn">Read More</a>
+          <Link to="/about" className="btn read-more-btn">Read More</Link>
         </div>
       </div>
     </div>
