@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+import { Link as Links } from "react-router-dom";
+
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
@@ -15,22 +18,22 @@ const Navbar = () => {
       <div className="nav mx-auto px-4 py-2 flex justify-between items-center">
         <div className="nav-item flex items-center justify-between w-full">
           <div className="hidden lg:flex gap-10">
-            <Link to="/" className="items">
+            <Links to="/" className="items">
               Home
-            </Link>
-            <Link to="/about" className="items">
+            </Links>
+            <Link to="about" smooth={true} duration={500} className="items">
               About us
             </Link>
-            <Link to="/services" className="items">
+            <Link to="services" smooth={true} duration={500} className="items">
               Our services
             </Link>
-            <Link to="/projects" className="items">
+            <Link to="projects" smooth={true} duration={500}  className="items">
               Our projects
             </Link>
-            <Link to="/clients" className="items">
+            <Link to="clients" smooth={true} duration={500} className="items">
               Our clients
             </Link>
-            <Link to="/contact" className="items">
+            <Link to="contact"  smooth={true} duration={1500} className="items">
               Contact us
             </Link>
           </div>

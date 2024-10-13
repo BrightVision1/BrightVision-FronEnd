@@ -9,7 +9,7 @@ import client7 from '../../assets/client/7.png';
 
 const Client = () => {
   return (
-    <div className="client-gallery mt-16">
+    <div id="clients" className="client-gallery mt-16">
       <h1>Our Clients</h1>
       <div className="client-images">
         <img src={client} alt="Client 1" />

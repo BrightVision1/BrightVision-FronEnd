@@ -1,5 +1,5 @@
-import  { useState } from 'react';
-import Cart from '../components/cart/Cart';
+import { useState } from 'react';
+import Cart from '../cart/Cart';
 import './services.css';
 
 const Services = () => {
@@ -21,7 +21,7 @@ const Services = () => {
 
   return (
     <>
-      <div className="services mt-5">
+      <div id='services' className="services mt-5">
         <h1 className="text-center">Our Services</h1>
         <div className="flex flex-wrap justify-center">
           {services.map((service, index) => (

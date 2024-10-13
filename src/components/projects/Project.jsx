@@ -10,22 +10,22 @@ const Project = () => {
     {
       id: 1,
       image: project,
-      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
+      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit ametLorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
     },
     {
       id: 2,
       image: project,
-      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
+      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
     },
     {
       id: 3,
       image: project,
-      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
+      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit ametLorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
     },
     {
       id: 4,
       image: project,
-      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
+      description: "Lorem ipsum dolor sit amet...Lorem ipsum dolor sit ametLorem ipsum dolor sit amet...Lorem ipsum dolor sit amet",
     },
   ];
 

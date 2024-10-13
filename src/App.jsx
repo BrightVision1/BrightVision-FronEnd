@@ -1,17 +1,17 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
-import Home from './pages/Home/Home';
-import Services from './services/Services';
-import Client from './components/Clients/Client';
-import Banner from './components/Banner/Banner';
-import ContactUs from './components/contactUs/ContactUs';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import AboutUs from './components/AboutUs/AboutUs';
+import Banner from './components/Banner/Banner';
+import Client from './components/Clients/Client';
+import ContactUs from './components/contactUs/ContactUs';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/NavBar/NavBar';
 import Project from './components/projects/Project';
+import Services from './components/services/Services';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <Router basename="/BrightVision-FronEnd">
+    <Router basename="/BrightVision-FronEnd/">
       <Navbar />
       <Banner />
       <Routes>

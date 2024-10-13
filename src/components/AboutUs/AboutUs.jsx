@@ -6,7 +6,7 @@ import mask2 from '../../assets/about/Mask2.png';
 import './About.css'
 const AboutUs = () => {
   return (
-    <div className="About mt-5">
+    <div id="about" className="About mt-5">
       <h1 className="text-center about-title">
         About Us
       </h1>

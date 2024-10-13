@@ -65,3 +65,6 @@ font-weight: 500;
 flex: none;
 flex-grow: 0;
 }
+.no-resize {
+  resize: none;
+}

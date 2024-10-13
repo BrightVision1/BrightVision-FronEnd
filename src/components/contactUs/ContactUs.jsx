@@ -6,7 +6,7 @@ import "./contact.css";
 const ContactUs = () => {
   return (
     <>
-      <div className="Contact flex flex-col items-center p-6 mt-20">
+      <div id="contact" className="Contact flex flex-col items-center p-6 mt-20">
         <div className="contact-background"></div>
         <h1 className="text-3xl font-bold mb-4 text-center">Contact Us</h1>
         <div className="flex flex-col md:flex-row md:justify-between w-full max-w-4xl mb-8">
@@ -65,7 +65,7 @@ const ContactUs = () => {
               <div className="mb-4">
                 <textarea
                   placeholder="Message"
-                  className="w-full p-2  rounded h-24"
+                 className="w-full p-2 rounded h-24 no-resize"
                 ></textarea>
               </div>
               <button
