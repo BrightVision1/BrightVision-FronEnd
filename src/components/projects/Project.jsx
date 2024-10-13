@@ -34,7 +34,7 @@ const Project = () => {
   };
   return (
     <>
-      <div className="Project mt-5 ">
+      <div id="projects" className="Project mt-5 ">
         <h1 className=" text-center font-bold">Our Projects</h1>
         <div className="card  mt-16 flex  items-center justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
