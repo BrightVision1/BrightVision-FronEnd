@@ -19,7 +19,7 @@ body {
   padding: 20px;
   position: relative;
   height: 640px;
-border: 4px solid #f8f9fa;
+  border: 4px solid #f8f9fa;
 }
 
 .text-container {
@@ -27,7 +27,7 @@ border: 4px solid #f8f9fa;
 }
 
 .text-container img {
-  width: 30%; 
+  width: 30%;
 }
 
 .hero-text .top-title {
@@ -37,7 +37,6 @@ border: 4px solid #f8f9fa;
   line-height: 4.2rem;
   letter-spacing: 0.14em;
   color: #214869;
-
 }
 
 .hero-text .title {
@@ -48,7 +47,7 @@ border: 4px solid #f8f9fa;
   width: 100%;
   font-style: normal;
   font-weight: 700;
-  font-size: 3rem; 
+  font-size: 3rem;
   line-height: 3.2rem;
   letter-spacing: 0.07em;
 }
@@ -69,7 +68,6 @@ border: 4px solid #f8f9fa;
     transform: scale(1.5) translateY(-10px);
   }
 
-
   100% {
     background-position: 100% 0%;
     transform: scale(1.7) translateY(-30px);
@@ -87,7 +85,7 @@ border: 4px solid #f8f9fa;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 100%;
-  animation:  moveBackground 2s alternate infinite ;
+  animation: moveBackground 2s alternate infinite;
 }
 
 .box-img {
@@ -97,9 +95,8 @@ border: 4px solid #f8f9fa;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
 }
-
 .box-img img {
   position: absolute;
   opacity: 0;
@@ -203,7 +200,6 @@ border: 4px solid #f8f9fa;
   .hero-section {
     background-size: cover;
     width: 100%;
-   
   }
   .hero-text .top-title {
     font-size: 2rem;
@@ -219,19 +215,17 @@ border: 4px solid #f8f9fa;
   }
 
   .box-img {
-    display: none; 
+    display: none;
   }
 
   .text-container {
     width: 100%;
   }
-  
 }
 
 @media (max-width: 500px) {
   .hero-text {
     text-align: center;
-
   }
 
   .hero-text .top-title {
@@ -246,15 +240,15 @@ border: 4px solid #f8f9fa;
 
   .hero-text p {
     font-size: 1rem;
-    line-height: 1.5rem; 
+    line-height: 1.5rem;
     margin: 0 auto;
-    padding: 0 1rem; 
-    max-width: 20rem; 
+    padding: 0 1rem;
+    max-width: 20rem;
   }
 
   .text-container img {
     width: 31%;
-margin: 18px;
+    margin: 18px;
   }
 
   /* Adjust the hero section */
@@ -269,7 +263,7 @@ margin: 18px;
   .text-container {
     width: 100%;
   }
-/* 
+  /* 
   .Ak-img1 {
     position: absolute;
     left: 20px;
@@ -292,5 +286,3 @@ margin: 18px;
     left: -20px;
   } */
 }
-
-

@@ -11,7 +11,7 @@ const Client = () => {
   return (
     <div id="clients" className="client-gallery mt-16">
       <h1>Our Clients</h1>
-      <div className="client-images">
+      <div className="client-images-section">
         <img src={client} alt="Client 1" />
         <img src={client2} alt="Client 2" />
         <img src={client3} alt="Client 3" />

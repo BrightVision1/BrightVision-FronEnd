@@ -60,7 +60,6 @@ const Banner = () => {
             </p>
           </div>
         </div>
-
         {!isMobile && (
           <div className="box-img mt-5">
             <img className="img1 animate" src={img1} alt="image1" />
