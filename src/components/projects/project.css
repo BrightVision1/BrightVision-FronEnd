@@ -22,13 +22,14 @@
   font-weight: 700;
   position: absolute;
   left: 85%;
-  bottom: 0;
+  bottom: -15%;
 }
 
 .Btn:hover {
   background-color: #fff;
   color: #9a0606;
 }
+
 .card-container {
   position: relative;
   cursor: pointer;
@@ -66,7 +67,7 @@
   text-align: center;
   padding: 20px;
   font-size: 1rem;
-  transition: bottom 0.5s ease;
+  transition: bottom 0.5s ease; 
   display: none;
 }
 
@@ -78,9 +79,77 @@
 .card-description p {
   margin: 0;
 }
+
 .button-card {
   color: #9a0606;
   position: absolute;
   right: 3%;
   bottom: 2%;
+}
+
+@media (max-width: 1200px) {
+  .Project {
+    height: auto;
+  }
+
+  .Project h1 {
+    width: 100%;
+    font-size: 2rem;
+    height: auto;
+  }
+
+  .Btn {
+  display: none;
+  }
+
+  .card-container {
+    height: auto;
+  }
+
+  .card-image {
+    height: 200px;
+  }
+
+  .card-description {
+    height: 60%;
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+
+  .button-card {
+    bottom: 3%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Project {
+    height: auto;
+  }
+
+  .Project h1 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .Btn {
+    display: none;
+    }
+
+  .card-container {
+    height: auto;
+  }
+
+  .card-image {
+    height: 180px;
+  }
+
+  .card-description {
+    height: 50%;
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .button-card {
+    bottom: 5%;
+  }
 }
