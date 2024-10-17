@@ -1,5 +1,6 @@
 import "./banner.css";
 import logo from "../../assets/nav/logo.png";
+import logo2 from '../../assets/nav/logo2.png'
 import img1 from "../../assets/banner/box1.png";
 import img2 from "../../assets/banner/box2.png";
 import img3 from "../../assets/banner/box3.png";
@@ -47,7 +48,7 @@ const Banner = () => {
     // </div>
 <div className="hero flex">
         <div className="text-container">
-          <img className="mt-2 sm:mt-5" src={logo} alt="" />
+          <img className="mt-2 sm:mt-5 logo-image" src={logo} alt="" />
           <div className="hero-text">
             <span className="top-title"> PROFESSIONALS </span>
             <br />
