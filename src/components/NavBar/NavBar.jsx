@@ -1,20 +1,37 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { Link as Links } from "react-router-dom";
-
-
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);  
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="absolute top-0 w-full z-10 p-3">
+    <nav
+      className={`navbar ${isScrolled ? "navbar-scrolled" : "navbar-transparent"} fixed top-0 w-full z-10 p-3 transition-all duration-300`}
+    >
       <div className="nav mx-auto px-4 py-2 flex justify-between items-center">
         <div className="nav-item flex items-center justify-between w-full">
           <div className="hidden lg:flex gap-10">
@@ -27,13 +44,13 @@ const Navbar = () => {
             <Link to="services" smooth={true} duration={500} className="items">
               Our services
             </Link>
-            <Link to="projects" smooth={true} duration={500}  className="items">
+            <Link to="projects" smooth={true} duration={500} className="items">
               Our projects
             </Link>
             <Link to="clients" smooth={true} duration={500} className="items">
               Our clients
             </Link>
-            <Link to="contact"  smooth={true} duration={1500} className="items">
+            <Link to="contact" smooth={true} duration={1500} className="items">
               Contact us
             </Link>
           </div>

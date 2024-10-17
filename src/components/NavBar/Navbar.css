@@ -1,3 +1,17 @@
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .navbar-transparent {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
 .items{
     color: #214869;
     font-weight: 600;
